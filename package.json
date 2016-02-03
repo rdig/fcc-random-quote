@@ -1,14 +1,18 @@
 {
-  "name": "fcc-boilerplate",
+  "name": "fcc-random-quote",
   "version": "0.0.1",
-  "description": "Simple boilerplate for fast challenge development. For use with FreeCodeCamp challenges",
+  "description": "Random quote machine. A FreeCodeCamp challenge",
   "main": "index.html",
   "scripts": {
     "dev": "gulp --gulpfile gulp-development.config.js",
     "build": "NODE_ENV=prod gulp --gulpfile gulp-production.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rdig/fcc-random-quote.git"
+  },
   "author": "Raul Glogovetan",
-  "license": "MIT",
+  "license": "MPL-2.0",
   "devDependencies": {
     "babel-core": "*",
     "babel-eslint": "*",

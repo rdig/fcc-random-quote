@@ -1,5 +1,7 @@
 Welcome!
 
+The project is meant to get / show you quotes via a button press.
+
 This was build to complete a [FreeCodeCamp challenge](http://www.freecodecamp.com/challenges/build-a-random-quote-machine). You can use the code as you see fit, just don't use my personal name (scrub it out). See [license](./license.md).
 
 ## Dependencies
