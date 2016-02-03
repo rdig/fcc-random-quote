@@ -1,0 +1,28 @@
+{
+  "name": "fcc-boilerplate",
+  "version": "0.0.1",
+  "description": "Simple boilerplate for fast challenge development. For use with FreeCodeCamp challenges",
+  "main": "index.html",
+  "scripts": {
+    "dev": "gulp --gulpfile gulp-development.config.js",
+    "build": "NODE_ENV=prod gulp --gulpfile gulp-production.config.js"
+  },
+  "author": "Raul Glogovetan",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "del": "*",
+    "eslint": "*",
+    "eslint-loader": "*",
+    "eslint-plugin-babel": "*",
+    "gulp": "*",
+    "gulp-babel": "*",
+    "gulp-connect": "*",
+    "gulp-eslint": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*"
+  }
+}
